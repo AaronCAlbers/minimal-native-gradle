@@ -25,12 +25,11 @@ This configuration was tested on a fresh install of Mac OS X Sierra 10.12 with t
 
 This configuration was tested on a fresh install of Kubuntu 17.04 x64 with the latest updates.
 
-1. Run "java -version" to see if a supported version of Java is already installed (1.8.0_121 or higher).
-   If not:
-   a. Run "sudo apt-get install software-properties-common python-software-properties" to get "add-apt-repository" command.
-   b. Run "sudo add-apt-repository ppa:webupd8team/java" to add the Java repository.
-   c. Run "sudo apt-get update" to update the installer cache.
-   d. Run "sudo apt-get install oracle-java8-installer" to install Java.
+1. Run "java -version" to see if a supported version of Java is already installed (1.8.0_121 or higher). If not:
+    1. Run "sudo apt-get install software-properties-common python-software-properties" to get "add-apt-repository" command.
+    2. Run "sudo add-apt-repository ppa:webupd8team/java" to add the Java repository.
+    3. Run "sudo apt-get update" to update the installer cache.
+    4. Run "sudo apt-get install oracle-java8-installer" to install Java.
 2. Run "sudo apt-get install g++" to install the toolchain.
 3. Download this minimal project or any other project that uses The Gradle Wrapper.
 4. Run "./gradlew build" from the terminal where the wrapper lives.
